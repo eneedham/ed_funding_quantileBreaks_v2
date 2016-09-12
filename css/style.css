@@ -79,7 +79,8 @@ border: none;
   background: #fff;
   box-shadow: rgba(0,0,0,.2) 0 0 4px 2px;
   opacity: 1;
-  width: 20%;
+  width: 150px;
+  /*width: 20%;*/
   height: 14%;
   bottom: 2%;
   z-index: 9999;
