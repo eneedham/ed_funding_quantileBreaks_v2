@@ -26,6 +26,9 @@ html, body, #map {
     max-width: 100%;
 }
 
+.leaflet-tile{
+  cursor: default;
+}
 
 .nstSlider{
     position: absolute;
@@ -195,6 +198,7 @@ div.cartodb-legend-stack{
 .hello{
 width: 180px;
 z-index: 99999;
+cursor: default;
 background-color: white;
 color: black;
 opacity: 0.9;
