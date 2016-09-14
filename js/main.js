@@ -26,7 +26,7 @@ function removeTip (x, y, val1, val2, val3, val4, val5){
   $('.cartodb-tooltip').remove();
   $('#infowindow_template').hide();
   $('#infowindow_template').empty();
-  $('#infowindow_template').append('<div class="hello"><div class="tip_container"><h4>{{name}}</h4><h4>Total State Funding</h4><p>${{'+ val1 +'}}<p><h4>State Funding per Pupil</h4><p>${{'+ val2 +'}}<p><h4>Funding Rank</h4><p>{{'+ val3 +'}} out of 500<p><div class="tipCircle"></div><h4>Median Household Income</h4><p><font color={{color}}>{{hh_order}}</font> ${{smed_hh}}</p></div></div>');
+  $('#infowindow_template').append('<div class="hello"><div class="tip_container"><h4>{{name}}</h4><h4>Total State Funding</h4><p>${{'+ val1 +'}}<p><h4>State Funding per Pupil</h4><p>${{'+ val2 +'}}<p><h4>Per Pupil Funding Rank</h4><p>{{'+ val3 +'}} out of 500<p><div class="tipCircle"></div><h4>Median Household Income</h4><p><font color={{color}}>{{hh_order}}</font> ${{smed_hh}}</p></div></div>');
   $('.legend_val').empty();
   $('.legend_val').append('<p style="margin-top: 3px; margin-bottom: 0px; font-family: Lato; font-size: small">'+ val4 + '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'+ val5 + '</p>');
   x.setCartoCSS(y);
